@@ -5,7 +5,15 @@ public class functionCallingWorks {
         int result = a + b;
 
         return result;
+    }
 
+    public static void func2() {
+        System.out.print("#");
+    }
+
+    public static void func1() {
+        System.out.print("*");
+        func2();
     }
 
     public static void main(String[] args) {
@@ -16,6 +24,10 @@ public class functionCallingWorks {
         int result = sum(a, b);
 
         System.out.println(result);
+        func2();
+
+        func1();
+
     }
 
 }
