@@ -10,7 +10,9 @@ public class basics {
     }
 
     public static void main(String[] args) {
+
         func2();
+
         func1();
     }
 
