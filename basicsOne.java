@@ -20,9 +20,15 @@ public class basicsOne {
 
     public static void main(String[] args) {
 
+        // fun 1
+
         func1(5);
 
+        // fun 2
+
         func2(5, 4);
+
+        // fun 3
 
         int a = 8;
 
