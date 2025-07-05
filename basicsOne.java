@@ -13,11 +13,22 @@ public class basicsOne {
         System.out.println(ans);
     }
 
+    public static int doubleValue(int a) {
+        a = a * 2;
+        return a;
+    }
+
     public static void main(String[] args) {
+
         func1(5);
 
         func2(5, 4);
 
-    }
+        int a = 8;
 
+        doubleValue(a);
+
+        System.out.println(a);
+
+    }
 }
