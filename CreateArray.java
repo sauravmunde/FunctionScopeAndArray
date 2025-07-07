@@ -1,4 +1,5 @@
-public class CreateArrays {
+public class CreateArray {
+
     public static void main(String[] args) {
 
         // creation of the array
@@ -41,7 +42,9 @@ public class CreateArrays {
         String fruits[] = { "apple", "mango", "orange" };
 
         System.out.println(fruits[0]);
+
         System.out.println(fruits[1]);
+
         System.out.println(fruits[2] + "\n");
 
     }
