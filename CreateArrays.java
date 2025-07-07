@@ -3,6 +3,8 @@ public class CreateArrays {
 
         // creation of the array
 
+        System.out.println();
+
         int marks[] = new int[5];
 
         marks[0] = 10;
@@ -20,6 +22,7 @@ public class CreateArrays {
         // input of the array
 
         int numbers[] = { 1, 2, 3, 4 };
+
         System.out.println(numbers[0]);
         System.out.println(numbers[1]);
         System.out.println(numbers[2]);
@@ -28,6 +31,7 @@ public class CreateArrays {
         // output off the array
 
         int moreNumbers[] = { 4, 5, 6 };
+
         System.out.println(moreNumbers[0]);
         System.out.println(moreNumbers[1]);
         System.out.println(moreNumbers[2] + "\n");
